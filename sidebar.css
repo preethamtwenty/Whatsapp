@@ -1,0 +1,41 @@
+.sidebar{
+    flex:0.35;
+    flex-direction: row;
+}
+.sidebar_header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    border-right:solid 1px lightgrey;
+   
+}
+.sidebar_search_container{
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+    background-color:white;
+    width:95%;
+    height:30px;
+   
+}
+.sidebar_search_container>input{
+    border:none;
+    margin-left:10px;
+}
+.sidebar_chats{
+   
+   flex:1;
+   flex-direction: column;
+   background-color: white;
+
+   
+    
+   
+   
+   
+   
+}
+.sidebar_chats :hover{
+    background-color:rgb(199, 199, 199);
+}
+
